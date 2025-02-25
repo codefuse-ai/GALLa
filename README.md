@@ -12,7 +12,7 @@ GALLa uses a GNN (Graph Neural Network) and an adapter to bridge graphs and LLMs
 
 ### Models
 
-The training of GALLa consists of three modules: GNN, adapter, and LLM. We use a [DUPLEX](https://arxiv.org/abs/2501.07114) as GNN and a single-layer cross-attention as the adapter by default. We also implement two alternatives: [MagNet](https://arxiv.org/abs/2102.11391) as GNN or an MLP as adapter. To use these alternatives, rename `model_magnet.py` or `model_mlp.py` to `model.py` in the `modeling` folder.
+The training of GALLa consists of three modules: GNN, adapter, and LLM. We use a [DUPLEX](https://arxiv.org/abs/2406.05391) as GNN and a single-layer cross-attention as the adapter by default. We also implement two alternatives: [MagNet](https://arxiv.org/abs/2102.11391) as GNN or an MLP as adapter. To use these alternatives, rename `model_magnet.py` or `model_mlp.py` to `model.py` in the `modeling` folder.
 
 At inference time, only the LLM is used (which means you can use models trained with GALLa just the way you use the base LLM). Currently we support LLaMA-2, LLaMA-3, Phi-1, StarCoder, CodeGen, and Qwen2.5.
 
