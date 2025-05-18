@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Repo for the paper [GALLa: Graph Aligned Large Language Models for Improved Source Code Understanding](https://arxiv.org/abs/2409.04183), which aligns LLMs to code structural graphs (e.g. AST, DFG) to enhance their understanding and semantic representation of code.
+Repo for the ACL 2025 paper [GALLa: Graph Aligned Large Language Models for Improved Source Code Understanding](https://arxiv.org/abs/2409.04183), which aligns LLMs to code structural graphs (e.g. AST, DFG) to enhance their understanding and semantic representation of code.
 
 ## Setup
 
